@@ -1,4 +1,4 @@
-from hacker import *
+from cipher import *
 
 printIntro()
 eOrD = input("Do you want to (e)ncrypt or d(ecrypt)?\n")
