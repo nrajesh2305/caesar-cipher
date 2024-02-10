@@ -2,9 +2,10 @@
 # Replace with portfolio website when done.
 website_url = ""
 
-print("Caesar Cipher, by Nithin Rajesh " + website_url + "\n")
-
 alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+
+def printIntro():
+    print("Caesar Cipher, by Nithin Rajesh " + website_url + "\n")
 
 # Works 100%
 def encrypt_message(message, key):
